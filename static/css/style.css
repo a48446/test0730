@@ -1,0 +1,781 @@
+/* start login */
+.login_html {
+    background-color: #a4bcd4 !important;
+}
+
+.login_background {
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.34);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    transition: .5s;
+    padding: 40px 60px;
+}
+
+.has_search .input_left {
+    font-size: 16pt;
+}
+
+.has_search .form_control_feedback {
+    padding-top: 5px;
+    position: absolute;
+    padding-left: 10px;
+    z-index: 2;
+    display: block;
+    width: 2.875rem;
+    height: 2.875rem;
+    line-height: 2.375rem;
+    text-align: inherit;
+    pointer-events: none;
+}
+
+.forget_psw {
+    color: #787878;
+}
+
+.forget_psw:hover {
+    color: #959ea4;
+}
+
+.login_logo {
+    font-weight: bold;
+    color: #455e77;
+}
+
+/* end login */
+
+/* start reset_password */
+.reset_input {
+    width: 50%;
+    margin: 15% auto;
+    margin-bottom: 0px;
+    font-size: 16pt;
+    font-family: Microsoft JhengHei;
+}
+
+/* end reset_password */
+
+/* start member_list */
+.header_blue {
+    background-color: #A4BCD4;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.odd {
+    background-color: #FFFFFF;
+    color: #666666;
+    font-size: 16px;
+}
+
+.even {
+    background-color: #F4F4F4;
+    color: #666666;
+    font-size: 16px;
+}
+
+.upload_zone_enter {
+    border: 10px dashed black;
+    background-clip: content-box;
+}
+
+.upload_zone_member_list {
+    border: 1px #B7C3CF solid;
+    margin-bottom: 25px;
+    height: 120px;
+    font-size: 15px;
+}
+
+#tableList thead th {
+    border-bottom-width: 0px;
+}
+
+#tableList thead th:nth-child(1), #tableList tbody td:nth-child(1) {
+    width: 10% !important;
+    padding-left: 50px;
+    text-align: left;
+}
+
+#tableList thead th:nth-child(2), #tableList tbody td:nth-child(2) {
+    width: 10% !important;
+    text-align: left;
+}
+
+#tableList thead th:nth-child(3), #tableList tbody td:nth-child(3) {
+    width: 10% !important;
+    text-align: left;
+}
+
+#tableList thead th:nth-child(4), #tableList tbody td:nth-child(4) {
+    width: 20% !important;
+    text-align: left;
+}
+
+#tableList thead th:nth-child(5), #tableList tbody td:nth-child(5) {
+    width: 10% !important;
+    text-align: left;
+}
+
+#tableList thead th:nth-child(6), #tableList tbody td:nth-child(6) {
+    width: 10% !important;
+    text-align: center;
+    padding-right: 12px;
+}
+
+#tableList thead th:nth-child(7), #tableList tbody td:nth-child(7) {
+    width: 5% !important;
+    text-align: center;
+    padding-right: 12px;
+}
+
+#tableList thead th:nth-child(8), #tableList tbody td:nth-child(8) {
+    width: 5% !important;
+    text-align: center;
+    padding-right: 12px;
+}
+
+#tableList {
+    width: 100%;
+    table-layout: fixed !important;
+    word-wrap: break-word;
+}
+
+#tableList .editRow, #tableList .delRow {
+    font-size: 20px !important;
+    color: #929292;
+}
+
+.enable-btn {
+    background-color: #DFF0DA;
+    color: #707070;
+}
+
+.enable-btn:hover {
+    color: #707070;
+}
+
+.disable-btn {
+    background-color: #B5B5B5;
+    color: #FFFFFF;
+}
+
+.disable-btn:hover {
+    color: #FFFFFF;
+}
+
+/* end member_list */
+/* start cell_sence_adjust */
+#jexcelOn {
+    width: 100%;
+    height: 100%;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+#colordiv {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.mainBorad {
+    width: 100%;
+    margin: 0 auto;
+    height: 95vh;
+    overflow-x: hidden;
+}
+
+.color_information {
+    width: 100%;
+    height: 25vh;
+}
+
+.cell_Information {
+    width: 100%;
+    height: 25vh;
+}
+
+.bg_FF9797 {
+    border: 1px solid #FF9797;
+    background-color: #FF9797;
+    width: 20px;
+    height: 20px;
+}
+
+.bg_FFD0FF {
+    border: 1px solid #FFD0FF;
+    background-color: #FFD0FF;
+    width: 20px;
+    height: 20px;
+}
+
+.bg_DDDDFF {
+    border: 1px solid #DDDDFF;
+    background-color: #DDDDFF;
+    width: 20px;
+    height: 20px;
+}
+
+.bg_BBFFBB {
+    border: 1px solid #BBFFBB;
+    background-color: #BBFFBB;
+    width: 20px;
+    height: 20px;
+}
+
+.bg_FFFFCE {
+    border: 1px solid #FFFFCE;
+    background-color: #FFFFCE;
+    width: 20px;
+    height: 20px;
+}
+
+.bg_E0E0E0 {
+    border: 1px solid #E0E0E0;
+    background-color: #E0E0E0;
+    width: 20px;
+    height: 20px;
+}
+
+.bg_gray {
+    height: 80%;
+    background-color: #F0F0F0;
+}
+
+.bg_deepgray {
+    background-color: #E0E0E0
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+/* end cell_sence_adjust */
+
+/* start up_file */
+.place {
+    top: 4%;
+    left: 74%;
+}
+
+.sendfilereal {
+    display: none;
+}
+
+#dropArea {
+    width: 100%;
+    height: 300px;
+}
+
+/* end up_file */
+/* start FormDetection */
+#colorInformation {
+    width: 100%;
+    height: 100px;
+}
+
+#cellInformation {
+    width: 100%;
+    height: 100px;
+
+}
+
+.upload_zone {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.upload_zone_enter {
+    border: 10px dashed black;
+    background-clip: content-box;
+}
+
+.obj {
+    width: 200px;
+    height: 200px;
+}
+
+.display_none {
+    display: none;
+}
+
+#uploadButton {
+    width: 150px;
+    display: block;
+    margin: 20px auto;
+}
+
+#fileToUpload {
+    display: none;
+}
+
+#pdfMainContainer {
+    width: 800px;
+    margin: 40px auto;
+}
+
+#pdfLoader {
+    display: none;
+    text-align: center;
+    color: #999999;
+    font-size: 13px;
+    line-height: 100px;
+    height: 100px;
+}
+
+#pdfContents {
+    display: none;
+
+}
+
+#pdfMeta {
+    overflow: hidden;
+    width: 560px;
+    margin: 0px 0 40px 100px;
+}
+
+#pdfButtons {
+    float: left;
+}
+
+#pageCountContainer {
+    float: right;
+}
+
+#pdfCurrentPage {
+    display: inline;
+}
+
+#pdfTotalPages {
+    display: inline;
+}
+
+#pdfCanvas {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width:800px;
+}
+
+#myPics {
+    z-index: -1;
+    border: 1px solid black;
+    width: 400px;
+
+}
+
+#pageLoader {
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    display: none;
+    color: #999999;
+    font-size: 13px;
+}
+
+#downloadImage {
+    width: 150px;
+    display: block;
+    margin: 20px auto 0 auto;
+    font-size: 13px;
+    text-align: center;
+}
+
+#downloadImage2 {
+    width: 150px;
+    display: block;
+    margin: 20px auto 0 auto;
+    font-size: 13px;
+    text-align: center;
+}
+
+.colorF0F0F0 {
+    background-color: "#F0F0F0";
+}
+
+.height-470 {
+    height: 470px;
+}
+
+.FormDetectionScroll {
+    overflow: scroll;
+}
+
+.pd25 {
+    padding-bottom: 25%
+}
+
+.F8f8f8 {
+    background-color: #F8f8f8;
+}
+
+.rgb255 {
+    background-color: rgb(255, 255, 255);
+}
+
+.addTable {
+    display: none;
+}
+
+.addCell {
+    display: none;
+}
+
+.h-87 {
+    height: 87vh;
+}
+
+.h-85 {
+    height: 85vh;
+}
+
+#make {
+    width: 800px;
+}
+
+
+/* end FormDetection */
+/* start IdentifyProgressList */
+
+#tableListProgress thead th:nth-child(1), #tableListProgress tbody td:nth-child(1) {
+    width: 15% !important;
+    padding-left: 50px;
+    text-align: left;
+}
+
+#tableListProgress thead th:nth-child(2), #tableListProgress tbody td:nth-child(2) {
+    width: 5% !important;
+    text-align: left;
+    padding-right: 12px;
+}
+
+#tableListProgress thead th:nth-child(3), #tableListProgress tbody td:nth-child(3) {
+    width: 10% !important;
+    text-align: left;
+    padding-right: 12px;
+}
+
+#tableListProgress thead th:nth-child(4), #tableListProgress tbody td:nth-child(4) {
+    width: 25% !important;
+    text-align: left;
+    padding-right: 12px;
+}
+
+#tableListProgress thead th:nth-child(5), #tableListProgress tbody td:nth-child(5) {
+    width: 10% !important;
+    text-align: left;
+    padding-right: 12px;
+}
+
+#tableListProgress thead th:nth-child(6), #tableListProgress tbody td:nth-child(6) {
+    width: 5% !important;
+    text-align: left;
+    padding-right: 12px;
+}
+
+#tableListProgress thead th:nth-child(7), #tableListProgress tbody td:nth-child(7) {
+    width: 5% !important;
+    text-align: center;
+    padding-right: 12px;
+}
+
+#tableListProgress thead th:nth-child(8), #tableListProgress tbody td:nth-child(8) {
+    width: 5% !important;
+    text-align: center;
+    padding-right: 12px;
+}
+
+#tableListProgress {
+    width: 100%;
+    table-layout: fixed !important;
+    word-wrap: break-word;
+}
+
+#tableListProgress .edit-icon, #tableListProgress .delete-icon {
+    font-size: 20px !important;
+    color: #929292;
+}
+
+/* end IdentifyProgressList */
+
+/* start ExportListSuper */
+#tableListExportSuper thead th:nth-child(1), #tableListExportSuper tbody td:nth-child(1) {
+    width: 10% !important;
+    text-align: left;
+    padding-left: 50px;
+}
+
+#tableListExportSuper thead th:nth-child(2), #tableListExportSuper tbody td:nth-child(2) {
+    width: 10% !important;
+    text-align: left;
+    padding-right: 12px;
+}
+
+#tableListExportSuper thead th:nth-child(3), #tableListExportSuper tbody td:nth-child(3) {
+    width: 10% !important;
+    text-align: left;
+    padding-right: 12px;
+}
+
+#tableListExportSuper thead th:nth-child(4), #tableListExportSuper tbody td:nth-child(4) {
+    width: 20% !important;
+    text-align: left;
+    padding-right: 12px;
+}
+
+#tableListExportSuper thead th:nth-child(5), #tableListExportSuper tbody td:nth-child(5) {
+    width: 15% !important;
+    text-align: left;
+    padding-right: 12px;
+}
+
+#tableListExportSuper thead th:nth-child(6), #tableListExportSuper tbody td:nth-child(6) {
+    width: 20% !important;
+    text-align: left;
+    padding-right: 12px;
+}
+
+#tableListExportSuper thead th:nth-child(7), #tableListExportSuper tbody td:nth-child(7) {
+    width: 5% !important;
+    text-align: center;
+    padding-right: 12px;
+}
+
+#tableListExportSuper thead th:nth-child(8), #tableListExportSuper tbody td:nth-child(8) {
+    width: 5% !important;
+    text-align: center;
+    padding-right: 12px;
+}
+
+#tableListExportSuper thead th:nth-child(9), #tableListExportSuper tbody td:nth-child(9) {
+    width: 5% !important;
+    text-align: center;
+    padding-right: 12px;
+}
+
+#tableListExportSuper {
+    width: 100%;
+    table-layout: fixed !important;
+    word-wrap: break-word;
+}
+
+#tableListExportSuper .downloadRow, #tableListExportSuper .editRow, #tableListExportSuper .delRow {
+    font-size: 20px !important;
+    color: #929292;
+}
+
+/* end ExportListSuper */
+
+/* start ExportListGeneral */
+#tableListExportGeneral thead th:nth-child(1), #tableListExportGeneral tbody td:nth-child(1) {
+    width: 10% !important;
+    text-align: left;
+    padding-left: 50px;
+}
+
+#tableListExportGeneral thead th:nth-child(2), #tableListExportGeneral tbody td:nth-child(2) {
+    width: 15% !important;
+    text-align: left;
+    padding-right: 12px;
+}
+
+#tableListExportGeneral thead th:nth-child(3), #tableListExportGeneral tbody td:nth-child(3) {
+    width: 20% !important;
+    text-align: left;
+    padding-right: 12px;
+}
+
+#tableListExportGeneral thead th:nth-child(4), #tableListExportGeneral tbody td:nth-child(4) {
+    width: 20% !important;
+    text-align: left;
+    padding-right: 12px;
+}
+
+#tableListExportGeneral thead th:nth-child(5), #tableListExportGeneral tbody td:nth-child(5) {
+    width: 20% !important;
+    text-align: left;
+    padding-right: 12px;
+}
+
+/* #tableListExportGU thead th:nth-child(6) {
+    width: 20% !important;
+} */
+
+#tableListExportGeneral thead th:nth-child(6), #tableListExportGeneral tbody td:nth-child(6) {
+    width: 5% !important;
+    text-align: center;
+    padding-right: 12px;
+}
+
+#tableListExportGeneral thead th:nth-child(7), #tableListExportGeneral tbody td:nth-child(7) {
+    width: 5% !important;
+    text-align: center;
+    padding-right: 12px;
+}
+
+#tableListExportGeneral thead th:nth-child(8), #tableListExportGeneral tbody td:nth-child(8) {
+    width: 5% !important;
+    text-align: center;
+    padding-right: 12px;
+}
+
+#tableListExportGeneral {
+    width: 100%;
+    table-layout: fixed !important;
+    word-wrap: break-word;
+}
+
+#tableListExportGeneral .downloadRow, #tableListExportGeneral .editRow, #tableListExportGeneral .delRow {
+    font-size: 20px !important;
+    color: #929292;
+}
+
+/* end ExportListGeneral */
+
+/* strat configuration */
+.content {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.bg_F0F0F0 {
+    background-color: #F0F0F0;
+}
+
+.bg_E0E0E0 {
+    background-color: #E0E0E0;
+}
+
+.bg_FCFCFC {
+    background-color: #FCFCFC;
+}
+
+.bg_FFFFFF {
+    background-color: #FFFFFF;
+}
+
+.bg_C4E1FF {
+    background-color: #C4E1FF;
+}
+
+#list {
+    width: 100%;
+    height: 70vh;
+    margin: 0 auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* end configuration */
+/* start compareversion */
+
+#spanKey {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.option_row {
+    width: 10%;
+}
+
+.category_row {
+    width: 15%;
+}
+
+.ic_row {
+    width: 15%;
+}
+
+.bom_row {
+    width: 45%;
+}
+
+.item_row {
+    width: 15%;
+}
+
+.current_version, .compare_version {
+    height: 300px;
+    overflow: scroll;
+    font-size: 2pt;
+}
+
+.main_header_result {
+    height: 200px;
+}
+
+.ask_delete_table {
+    height: 300px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+/* 隱藏scrollbar 但可滾動 */
+.ask_delete_table::-webkit-scrollbar, .compare_version::-webkit-scrollbar, .current_version::-webkit-scrollbar {
+    display: none;
+}
+
+.compare_version_background {
+    background: #F8F8F8;
+    padding: 0 10px 40px 10px;
+}
+
+.screen_shot_background {
+    background: #F8F8F8;
+}
+
+.check_icon {
+    color: green;
+}
+
+.delete_icon {
+    color: red;
+}
+
+.add_icon {
+    font-size: 20px;
+    color: blue;
+}
+
+/* end compareversion */
+/* start grab_PDF */
+
+#image1 {
+    width: 100px !important;
+}
+
+#image2 {
+    width: 100px !important;
+}
+
+
+
+/* end grab_PDF */

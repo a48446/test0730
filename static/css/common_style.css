@@ -1,0 +1,152 @@
+html {
+    height: 100%;
+    background-color: #ECECEC;
+}
+
+body a, body a:focus, body a:hover, body a:active, body a:visited {
+    text-decoration: none !important;
+}
+
+/* 背景顏色 */
+body {
+    background-color: #ECECEC;
+    font-family: Microsoft JhengHei, Arial;
+}
+
+/* 頁面header(共用) */
+.page_header {
+    background-color: #9099A2;
+    font-size: 14pt;
+    font-family: Microsoft JhengHei;
+    color: #FFFFFF;
+    width: 100%;
+    line-height: 3.5;
+}
+
+/* 彈跳視窗遮罩(共用) */
+.modal_background {
+    background-color: rgba(233, 233, 233, .8)
+}
+
+/* 頁面按鈕(共用) */
+.page_button {
+    background-color: #ABCADD;
+    border-radius: 5px;
+    color: #464646;
+    font-size: 14pt;
+    font-family: Microsoft JhengHei;
+}
+
+.page_button_cancel {
+    background-color: #CCCCCC;
+    border-radius: 5px;
+    color: #464646;
+    font-size: 14pt;
+    font-family: Microsoft JhengHei;
+}
+
+/* 登入按鈕(共用) */
+.login_button {
+    background-color: #A9B7C0;
+    color: #FFFFFF;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 5px;
+}
+
+.login_button:hover {
+    background-color: #959ea4;
+    color: #FFFFFF;
+}
+
+/* 彈出視窗header(共用) */
+.modal_header {
+    background-color: #B7C3CF;
+    font-size: 16pt;
+}
+
+/* 彈出視窗body(共用) */
+.modal_body {
+    /* padding: 30px 30px 0px 30px; */
+    font-size: 15pt;
+}
+
+/* 分頁共用 */
+.ulPagination > ul > li > a, .ulPagination > ul > li > span {
+    color: #000000;
+    background-color: #FFFFFF;
+    font-size: 13px;
+    font-family: Microsoft JhengHei;
+}
+
+.display_none {
+    display: none;
+}
+
+/* 彈出視窗置中(共用) */
+.modal_dialog_center {
+    margin-top: calc(30vh);
+}
+
+/* 列表文字致中(共用) */
+.table td {
+    vertical-align: inherit;
+}
+
+/* START 登入資訊盒子(共用) */
+.member_info {
+    cursor: pointer;
+    outline: 0px solid transparent;
+}
+
+.member_box {
+    position: absolute;
+    background-color: #fff;
+    width: 150px;
+    border: 1px #ddd solid;
+    border-radius: 3px;
+    top: 65px;
+    right: 10px;
+    box-shadow: 0px 0px 10px rgba(40, 40, 40, 0.2);
+    display: none;
+    padding: 0px;
+    text-align: left;
+    z-index: 10;
+}
+
+.member_box li {
+    display: block;
+    line-height: 40px;
+    border-bottom: 1px #eee solid;
+    width: 100%;
+    font-size: 16px;
+    padding: 5px;
+    color: #707070;
+}
+
+.member_box li a {
+    color: #707070;
+    text-decoration: none;
+    display: block;
+}
+
+.member_box li a:hover {
+    color: #488fde;
+    text-decoration: none;
+}
+
+/* END 登入資訊盒子 */
+
+/* START 隱藏datatable排序功能的箭頭 */
+#tableList > thead > tr > th[class*="sort"]:before,
+#tableList > thead > tr > th[class*="sort"]:after,
+#tableListProgress > thead > tr > th[class*="sort"]:before,
+#tableListProgress > thead > tr > th[class*="sort"]:after,
+#tableListExportSuper > thead > tr > th[class*="sort"]:before,
+#tableListExportSuper > thead > tr > th[class*="sort"]:after,
+#tableListExportGeneral > thead > tr > th[class*="sort"]:before,
+#tableListExportGeneral > thead > tr > th[class*="sort"]:after {
+    content: "" !important;
+}
+
+/* END 隱藏datatable排序功能的箭頭 */
